@@ -30,7 +30,7 @@ export default function App() {
   return (
     <div className="App">
       <input type="text" onChange={r} />
-      <button type="button" onclick={sub} disabled={d}>
+      <button type="button" onClick={sub} disabled={d}>
         submit
       </button>
       {a}
